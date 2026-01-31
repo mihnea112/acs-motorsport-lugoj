@@ -10,17 +10,12 @@ const Footer: React.FC = () => {
           {/* Brand & Description */}
           <div className="md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="h-8 w-8 bg-black rounded flex items-center justify-center overflow-hidden relative shadow-md">
-                <div className="absolute inset-0 flex flex-col">
-                  <div className="h-1/3 w-full bg-[#002B7F]"></div>
-                  <div className="h-1/3 w-full bg-[#FCD116]"></div>
-                  <div className="h-1/3 w-full bg-[#CE1126]"></div>
-                </div>
+              <div className="h-12 w-12 bg-white rounded flex items-center justify-center overflow-hidden relative shadow-md">
                 {logoOk ? (
                   <img
                     src="/logo.png"
                     alt="ACS Motorsport Lugoj - Logo"
-                    className="relative z-10 w-6 h-6 object-contain"
+                    className="relative z-10 w-12 h-12 object-contain"
                     loading="eager"
                     decoding="async"
                     onError={() => setLogoOk(false)}
@@ -32,7 +27,7 @@ const Footer: React.FC = () => {
               <span className="font-display font-bold text-2xl tracking-wide">ACS MOTORSPORT</span>
             </div>
             <p className="text-gray-400 text-sm mb-6">
-              Promovăm sportul cu motor în Lugoj și în vestul României din 2014. Pasiune, adrenalină și fair-play.
+              Promovăm sportul cu motor în Lugoj și în vestul României din 2022. Pasiune, adrenalină și fair-play.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-8 h-8 rounded bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors text-white">
@@ -90,7 +85,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
-          <p>© 2024 ACS Motorsport Lugoj. Toate drepturile rezervate.</p>
+          <p>© 2026 ACS Motorsport Lugoj. Toate drepturile rezervate.</p>
           <div className="mt-2 md:mt-0 flex items-center space-x-1">
             <span>Design inspired by Romanian Motorsport</span>
             <span className="h-2 w-2 rounded-full bg-secondary"></span>
